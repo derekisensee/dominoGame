@@ -9,7 +9,7 @@ public class Domino {
 		sideB = b;
 	}
 	
-	public int getPiece() {
+	public String getPiece() {
 		return sideA + " | " + sideB;
 	}
 }
