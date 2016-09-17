@@ -1,5 +1,3 @@
-package dominoGame;
-
 public class Domino {
 	int sideA;
 	int sideB;
@@ -11,5 +9,10 @@ public class Domino {
 	
 	public String getPiece() {
 		return sideA + " | " + sideB;
+	}
+
+	public static void main(String[] args) {
+		Domino d = new Domino(3, 2);
+		System.out.println(d.getPiece());
 	}
 }
